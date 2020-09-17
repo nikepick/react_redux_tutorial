@@ -1,5 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Redux Boilerplate explainantion
+
+1. Create **store.js** in **src** and copy everything from the store.js of this repository
+1. Create a folder in **src** named **reducers**
+    1. Create **index.js** inside it and copy it from this repository as it is, remove all the imports except the ones from **react**
+1. Create a folder named **actions** in **src**
+    1. Add **types.js** to it
+    1. Add another file **-somename--Action.js**, add dispatchers for your actions here
+
 ## Available Scripts
 
 In the project directory, you can run:
